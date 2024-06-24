@@ -1,0 +1,22 @@
+* E:\OneDrive - BUET\Tahsin\CODING ZONE\PSPICE Simulation\ALL EXPERIMENTS\EEE 208\OP-AMP\Regulated Variable DC Power Supply Generation\Rectifying_signal.sch
+
+* Schematics Version 9.2
+* Tue Feb 22 00:14:20 2022
+
+
+
+** Analysis setup **
+.tran 30u 0.13 0 30u
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "Rectifying_signal.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END
